@@ -19,14 +19,14 @@
   <!-- Montserrat font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
         rel="stylesheet">
 
   <style>
     :root {
       --purple: #38258D;
       --background: #FFFFFF;
-      --text: #29252F;
+      --text: #302B39;
       --muted: #55515F;
     }
 
@@ -40,9 +40,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: var(--background);
+      background-color: var(--background);
       color: var(--text);
       font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 400;
       text-align: center;
     }
 
@@ -63,33 +64,33 @@
     .brand {
       color: var(--purple);
       font-size: clamp(38px, 7vw, 54px);
-      font-weight: 800;
-      letter-spacing: -2px;
-      line-height: 1.2;
+      font-weight: 400;
+      letter-spacing: -1.5px;
+      line-height: 1.25;
       margin: 0;
     }
 
     .tagline {
-      margin-top: 10px;
+      margin-top: 12px;
       color: var(--purple);
       font-size: 12px;
-      font-weight: 600;
+      font-weight: 400;
       letter-spacing: 4px;
       text-transform: uppercase;
     }
 
     .divider {
-      width: 65px;
-      height: 3px;
-      background: var(--purple);
-      margin: 50px auto;
-      border-radius: 3px;
+      width: 60px;
+      height: 2px;
+      background-color: var(--purple);
+      margin: 48px auto;
     }
 
     h2 {
-      font-size: clamp(23px, 4vw, 30px);
-      font-weight: 700;
-      line-height: 1.45;
+      color: var(--text);
+      font-size: clamp(23px, 4vw, 29px);
+      font-weight: 500;
+      line-height: 1.5;
       margin: 0 0 30px;
     }
 
@@ -105,7 +106,7 @@
       margin-top: 55px;
       color: var(--purple);
       font-size: 12px;
-      font-weight: 600;
+      font-weight: 400;
     }
 
     @media (max-width: 600px) {
